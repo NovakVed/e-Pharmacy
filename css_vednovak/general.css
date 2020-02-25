@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.06.2019., 12:34:06
+    Author     : vednovak
+*/
+
+/*==================
+    GENERAL
+==================*/
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+body{
+    background: #E5E5E5;
+    background-color: rgba(241,241,241,1);
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    padding-bottom:10%;
+    box-sizing: border-box;
+}
+
+.base {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    left: 10%;
+    top: 1%;
+    overflow:hidden;
+    fill: rgba(246,248,249,1);
+}
+
+footer {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    bottom: 0;
+    background-color: gray;
+}
+
+.spanFooter{
+    float: right;
+}
+
+.center_div {
+    background-color: white;
+    width: 65%;
+    height: auto;
+    border: 3px;
+    border-color: black;
+    border-style: dotted;
+    margin: auto;
+}
+
+.center_div_registration{
+    background-color: white;
+    width: 65%;
+    height: auto;
+    border: 3px;
+    border-color: black;
+    border-style: dotted;
+    /* padding-top: 10%; */
+    /* padding-bottom: 10%; */
+    margin: auto;
+}
+
+/*.center_forms{
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+}
+
+.center_text_forms{
+    padding: 1em 0.5em;
+    padding-top: 25%;
+    width: 80%; height: 50%;
+}*/
+
+h1{
+    opacity: 1;
+    font-family: "Arial";
+    left: 10%;
+    color: rgba(114,172,255,1);
+    text-align: center;
+}
+
+
+.wrongInput{
+    background: red;
+}
+
+.correctInput{
+    background: white;
+}
+
+.registration_form{
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+    /* width: auto; */
+    /* margin: 0 auto; */
+    /* background: white; */
+}
+
+.formLogin{
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+}
+
+.button{
+    background-color: gray;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: black;
+}

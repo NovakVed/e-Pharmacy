@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 13, 2019, 4:22:45 PM
+    Author     : vedra
+*/
+
+/*========================================
+                NAVIGATION
+========================================*/
+
+header{
+    fill: rgba(246,248,249,1);
+    top: 0;
+    background: rgba(246,248,249,1);
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+
+nav > ul li {
+    display: inline;
+}
+
+nav > ul li a{
+    text-align: center;
+    padding: 10px;
+    color: rgba(114,172,255,1);
+    font-family: "Arial";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+    padding-bottom: 5%;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.currentPageHighlight{
+    font-size: 22px;
+    font-weight: bold;
+    fill: rgba(114,172,255,1);
+}
+
+.nextPage{
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+
+.rectCaption{
+    background: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: monospace;
+    fill: rgba(114,172,255,1);
+}
+
+.nextPageFooter{
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+/*========================================
+            NAVIGATION KRAJ
+========================================*/

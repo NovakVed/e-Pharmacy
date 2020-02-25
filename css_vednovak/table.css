@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+}
+
+th{
+    background-color: rgba(114,172,255,1);
+}
+tr:nth-child(even){
+    background-color: rgba(246,248,249,1);
+}
+caption{
+    font-size: 40px;
+}
+
+.tableScrollLog{
+    width: 100%;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+}
+
+.tableScrollUser{
+    width: 100%;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+}
